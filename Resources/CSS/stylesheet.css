@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lobster', cursive;
+    background-image: url("background-image.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg);
+    color:rgb(240, 190, 173);
+    letter-spacing: 0.2em; 
+    word-spacing: 0.15em; 
+    font-size: 90px;
+    text-align: center;
+    overflow: initial;
+}
+/*
+h1 {
+    text-align: center;
+    font-size: 90px;
+    overflow: initial;
+    height: 120px;
+}
+*/
+
+/* Nav menu */
+
+a {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding-inline: 150px;
+    text-decoration: underline; 
+    display: inline-block; 
+    width: 100px;
+    background-color: lightgoldenrodyellow;
+}
+
+
+/* main */
+.pricing {
+    color:blue;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+}
+
+/* Brushes Section */
+.brushes {
+    background-color: rgb(146, 247, 146);
+}
+/* Making the pictures inline with the text side by side*/
+.img-brushes {
+    display: inline-block;
+}
+.brushes-p {
+    display: inline-block;
+    position: absolute;
+    left: 300px;
+    top: 400px;
+}
+
+/* Frames Section */
+.frames {
+    background-color: rgb(240, 162, 179);
+}
+.img-frames {
+    display: inline-block;
+}
+.frames-p {
+    display: inline-block;
+    position: absolute;
+    left: 300px;
+    top: 750px;
+}
+
+/* Paint Section */
+.paint {
+    background-color: rgb(94, 241, 241);
+}
+.img-paint {
+    display: inline-block;
+}
+.paint-p {
+    display: inline-block;
+    position: absolute;
+    left: 300px;
+    top: 1125px;
+}
+
+
